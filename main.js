@@ -111,18 +111,17 @@
 
 // Exercise 6: ////
 
-// let char1=prompt("insert Only one char")
-// let string1 =prompt("insert some word"); 
+let char1=prompt("insert Only one char");
+let string1 =prompt("insert some word"); 
 
-// function isStringLongThan (str,char){
-//     let indOfChr = str.indexOf(char);
-//     if(str.length > 6){
-//         return str;
-//     }
-//     return indOfChr;
-// }
+function isStringLongThan (str,char){
+    if(str.length > 6){
+        return str;
+    }
+    return str.indexOf(char);
+}
 
-// console.log(isStringLongThan(string1,char1));
+console.log(isStringLongThan(string1,char1));
 
 // Exercise 7: ////
 
